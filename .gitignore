@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+backend/.venv/
+*.egg-info/
+
+# Environment
+.env
+
+# Database
+data/*.db
+data/uploads/
+
+# Node
+node_modules/
+frontend/node_modules/
+frontend/dist/
+frontend/.pnpm-store/
+frontend/pnpm-lock.yaml
+
+# uv lock (keep pyproject.toml but lock file can be regenerated)
+# backend/uv.lock  ← keep this committed so deps are reproducible
+
+# OS
+.DS_Store
+desktop.ini
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Claude Code local settings (machine-specific)
+.claude/
